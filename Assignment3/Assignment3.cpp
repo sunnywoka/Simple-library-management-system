@@ -17,17 +17,11 @@ int m = 0;
 LibraryItem* libraryItem[100];//declare 100 library item object
 vector<string> idList;//declare vertor to store the library items' id
 
-void displayInfo();
+
 void search();
 void searchID(string s, vector<string>::iterator it);
 void searchPhraseInTitle(string s);
 
-void displayInfo() {//the information of student who contributed to the solution
-    cout << "--------------------------------------" << endl;
-    cout << "    Assignment 3 Semester 1 2020      " << endl;
-    cout << "  Submitted by: Yuekai, Wu 13113181   " << endl;
-    cout << "--------------------------------------" << endl;
-}
 
 //search function use to choose the way for searching
 void search() {
