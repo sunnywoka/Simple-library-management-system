@@ -122,7 +122,6 @@ void searchPhraseInTitle(string s) {
 
 int main()
 {
-    displayInfo();
     ifstream file;
     file.open("library.txt");//open file
     if (file.is_open() == false) {//check if the file is exist
